@@ -38,7 +38,7 @@ public class AuthorizationController {
                 return ResponseEntity.ok(new JwtDTO(userDTO.getUsername(), jwt));
             }
         } catch (IllegalArgumentException | IllegalAccessException e) {
-            return ResponseEntity.badRequest().body("Login or password is incorrect!");
+            return ResponseEntity.badRequest().body("Беда беда, либо логин либо пароль у смешарика не тот");
         }
     }
 
@@ -55,7 +55,7 @@ public class AuthorizationController {
             return ResponseEntity.ok().body(userDTO.getUsername());
         } catch (IllegalArgumentException e) {
             System.err.println(e);
-            return ResponseEntity.badRequest().body("This username " + userDTO.getUsername() + " already exists!");
+            return ResponseEntity.badRequest().body("Этот смешарик: " + userDTO.getUsername() + ", уже есть, нового придумай");
         }
     }
 }
