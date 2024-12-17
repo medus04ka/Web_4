@@ -9,11 +9,11 @@ const validate = values => {
     const errors = {};
 
     if (!values.username && !values.password) {
-        errors.errorMessage = 'Please enter your login !';
+        errors.errorMessage = 'Gde login';
     } else if (!values.username) {
-        errors.errorMessage = 'Username cannot be empty!';
+        errors.errorMessage = 'nikname kringe menyai';
     } else if (!values.password) {
-        errors.errorMessage = 'Password cannot be empty!'
+        errors.errorMessage = 'smena passworda pj'
     }
     return errors;
 };
@@ -60,7 +60,7 @@ const AuthForm = (props) => {
                            onChange={formik.handleChange}/>
                 </p>
                 <br/>
-                <ControlButton text="Login"/>
+                <ControlButton text="Зайти"/>
                 <br/>
 
                 <div className="register-field">

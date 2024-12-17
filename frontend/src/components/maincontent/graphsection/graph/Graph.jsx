@@ -28,8 +28,22 @@ const Graph = (props) => {
     const drawCurrent = (canvas, canvasCtx) => {
         clearCanvas(canvas, canvasCtx);
 
-        const x = props.xCurrent * canone / props.rCurrent + canvas.width / 2;
-        const y = -(props.yCurrent / props.rCurrent * canone - canvas.height / 2);
+        let xCurrent = props.xCurrent;
+        let yCurrent = props.yCurrent;
+
+        if(xCurrent % 1 === 0){
+            xCurrent *= 1.33;
+        }
+        if(yCurrent % 1 === 0){
+            yCurrent *= 1.33;
+        }
+
+
+        const x = (xCurrent * canone / props.rCurrent + canvas.width / 2);
+        const y = -(yCurrent / props.rCurrent * canone - canvas.height / 2);
+
+       // const x = (props.xCurrent * canone / props.rCurrent + canvas.width / 2);
+        //const y = -(props.yCurrent / props.rCurrent * canone - canvas.height / 2);
 
         if (x > canvas.width || x < 0 || y > canvas.height || y < 0) {
             return;

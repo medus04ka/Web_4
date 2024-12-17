@@ -4,7 +4,7 @@ import {Helmet} from "react-helmet";
 const TitleHelmet = (props) => {
     return (
         <Helmet>
-            <title>{props.title ? props.title : "Web 4"}</title>
+            <title>{props.title ? props.title : "pizdes"}</title>
         </Helmet>
     );
 }

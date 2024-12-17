@@ -8,7 +8,7 @@ const IndexContent = (props) => {
 
     return (
         <main className="main-container">
-            <h1 className="visually-hidden">Web Project 4 - Start Page</h1>
+            <h1 className="visually-hidden">Мейник</h1>
             <AuthSection />
         </main>
     );

@@ -14,6 +14,6 @@
 
 input[type="checkbox"]:checked + .checkbox-item-label {
     display: inline-flex;
-    color: #007bff;
+    color: #000000;
     font-weight: bold;
 }

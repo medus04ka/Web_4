@@ -15,7 +15,7 @@ const validateForm = values => {
     };
 
     if (!isNumeric(values.rCurrent) || !values.rValues.includes(parseFloat(values.rCurrent))) {
-        return 'Choose a valid R!';
+        return 'Choose a invalid R!';
     }
 
 /*
@@ -26,11 +26,11 @@ const validateForm = values => {
  */
 
     if (!isNumeric(values.xCurrent) || values.xCurrent < values.xMin || values.xCurrent > values.xMax) {
-        return `Choose X from ${values.xMin} to ${values.xMax}!`;
+        return `xep X from ${values.xMin} to ${values.xMax}!`;
     }
 
     if (!isNumeric(values.yCurrent) || values.yCurrent < values.yMin || values.yCurrent > values.yMax) {
-        return `Choose Y from ${values.yMin} to ${values.yMax}!`;
+        return `xep Y from ${values.yMin} to ${values.yMax}!`;
     }
 
     if (values.rCurrent <=0) {
@@ -123,8 +123,8 @@ const ValuesForm = (props) => {
             </div>
 
             <div className="values-form-control-container">
-                <ControlButton text="Check" action={handleCheckClick} />
-                <ControlButton text="Clear" action={handleClearClick} />
+                <ControlButton text="Тык" action={handleCheckClick} />
+                <ControlButton text="Отчистка" action={handleClearClick} />
             </div>
         </form>
     );

@@ -19,7 +19,7 @@ const App = (props) => {
         return (
             <div>
                 <HeaderContainer />
-                <TitleHelmet title="Web Project 4 - Loading..." />
+                <TitleHelmet title="pizdes Вертимся" />
                 <Preloader />
             </div>
 
@@ -28,7 +28,7 @@ const App = (props) => {
         return (
             <div>
                 <HeaderContainer />
-                <TitleHelmet title="Web Project 4 - Main page" />
+                <TitleHelmet title="pizdes Мейник" />
                 <MainContent />
             </div>
         );
@@ -36,7 +36,7 @@ const App = (props) => {
         return (
             <div>
                 <HeaderContainer />
-                <TitleHelmet title="Web Project 4 - Authorization Page" />
+                <TitleHelmet title="pizdes Авторизейшн" />
                 <IndexContent />
             </div>
         );
