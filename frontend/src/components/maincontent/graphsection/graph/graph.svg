@@ -121,16 +121,16 @@
 
 
 <line x1="144" y1="241" x2="158" y2="241" stroke="black" />
-<text x="164" y="248" fontSize="14">{-props.rValue}</text>
+<!--<text x="164" y="248" fontSize="14">{-props.rValue}</text>-->
 
 <line x1="144" y1="196" x2="158" y2="196" stroke="black" />
-<text x="164" y="203" fontSize="14">{-props.rValue / 2}</text>
+<!--<text x="164" y="203" fontSize="14">{-props.rValue / 2}</text>-->
 
 <line x1="144" y1="104" x2="158" y2="104" stroke="black" />
-<text x="164" y="111" fontSize="14">{props.rValue / 2}</text>
+<!--<text x="164" y="111" fontSize="14">{props.rValue / 2}</text>-->
 
 <line x1="144" y1="59" x2="158" y2="59" stroke="black" />
-<text x="164" y="66" fontSize="14">{props.rValue}</text>
+<!--<text x="164" y="66" fontSize="14">{props.rValue}</text>-->
 
 
 <rect x="90" y="52" width="120" height="23" fill="#0000FF" fill-opacity="0.5"

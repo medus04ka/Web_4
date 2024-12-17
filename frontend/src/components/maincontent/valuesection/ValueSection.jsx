@@ -4,7 +4,7 @@ import styles from "./ValueSection.style.css";
 import sharedStyles from "../MainContent.sharedstyle.css";
 import ValueFormContainer from "./valueform/ValueFormContainer";
 
-const ValueSection = (props) => {
+const ValueSection = () => {
     return (
         <section className="column-container-item section content-section">
             <h2 className="theme section-header">

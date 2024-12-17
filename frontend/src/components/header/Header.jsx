@@ -2,7 +2,6 @@ import React from "react";
 import CSSModules from "react-css-modules";
 import styles from "./Header.style.css";
 import Logout from "./logout/Logout";
-import { SlArrowLeft } from "react-icons/sl";
 
 const Header = (props) => {
     const handleLogout = (e) => {

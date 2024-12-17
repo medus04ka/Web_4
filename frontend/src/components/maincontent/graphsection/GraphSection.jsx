@@ -4,7 +4,7 @@ import styles from "./GraphSection.style.css";
 import sharedStyles from "../MainContent.sharedstyle.css";
 import GraphContainer from "./graph/GraphContainer";
 
-const GraphSection = (props) => {
+const GraphSection = () => {
     return (
         <section className="column-container-item section content-section">
             <h2 className="theme section-header">

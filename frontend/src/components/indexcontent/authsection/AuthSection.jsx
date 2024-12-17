@@ -3,7 +3,7 @@ import CSSModules from "react-css-modules";
 import styles from './AuthSection.style.css';
 import AuthFormContainer from "./authform/AuthFormContainer";
 
-const AuthSection = (props) => {
+const AuthSection = () => {
     return (
         <section className="section content-section">
             <h2 className="theme section-header">
