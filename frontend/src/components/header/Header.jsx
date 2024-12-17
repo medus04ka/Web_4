@@ -15,7 +15,7 @@ const Header = (props) => {
                 <div><a href="https://ooo.eeeee.ooo/"><span>Ми(к)ху</span></a></div>
             </ul>
             <ul className="main-header-content creator">
-                <a href="https://wayou.github.io/t-rex-runner/">Пипасивна</a>
+                <a href="https://wayou.github.io/t-rex-runner/">Пи(кми)пасивна</a>
             </ul>
         </header>
     );
