@@ -1,2 +1,2 @@
-linguist-documentation=false
-linguist-vendored
+src/* linguist-documentation=false
+src/* linguist-vendored
