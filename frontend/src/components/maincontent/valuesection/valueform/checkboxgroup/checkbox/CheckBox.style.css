@@ -1,0 +1,19 @@
+.checkbox-container {
+    display: inline;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.checkbox-item-label {
+    display: inline-flex;
+    font-size: 16px;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+input[type="checkbox"]:checked + .checkbox-item-label {
+    display: inline-flex;
+    color: #007bff;
+    font-weight: bold;
+}

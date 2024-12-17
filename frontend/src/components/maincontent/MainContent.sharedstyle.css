@@ -1,0 +1,18 @@
+.main-container-item {
+    margin: 20px;
+}
+
+.main-container-item-left-column {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+}
+
+.main-container-item-table {
+    flex-grow: 4;
+    min-width: 50%;
+}
+
+.column-container-item {
+    flex-basis: 220px;
+}

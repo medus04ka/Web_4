@@ -1,0 +1,11 @@
+.control-button {
+    width: 90px;
+    height: 27px;
+    font-size: 13px;
+    font-family: "MyCustomFont", sans-serif;
+    border: none;
+}
+
+.control-button:hover {
+    background-color: rgba(218, 149, 142, 0.66);
+}

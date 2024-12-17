@@ -1,0 +1,155 @@
+<!--<svg width="220" height="220" xmlns="http://www.w3.org/2000/svg">-->
+<!--    {/* X-Axis */}-->
+<!--    <line x1="10" y1="110" x2="210" y2="110" stroke="black" />-->
+<!--    <polygon points="210,110 200,105 200,115" />-->
+
+<!--    {/* Y-Axis */}-->
+<!--    <line x1="110" y1="10" x2="110" y2="210" stroke="black" />-->
+<!--    <polygon points="110,10 105,20 115,20" />-->
+
+<!--    {/* X-Axis coordinates */}-->
+<!--    <line x1="43" y1="105" x2="43" y2="115" stroke="black" />-->
+<!--    <text x={43 - (-props.rValue).toString().length * 3} y="100" fontSize="14">{-props.rValue}</text>-->
+
+<!--<line x1="76" y1="105" x2="76" y2="115" stroke="black" />-->
+<!--<text x={76 - (-props.rValue / 2).toString().length * 3} y="100" fontSize="14">{-props.rValue / 2}</text>-->
+
+<!--<line x1="143" y1="105" x2="143" y2="115" stroke="black" />-->
+<!--<text x={143 - (props.rValue / 2).toString().length * 3} y="100" fontSize="14">{props.rValue / 2}</text>-->
+
+<!--<line x1="176" y1="105" x2="176" y2="115" stroke="black" />-->
+<!--<text x={176 - props.rValue.toString().length * 3} y="100" fontSize="14">{props.rValue}</text>-->
+
+<!--        {/* Y-Axis coordinates */}-->
+<!--<line x1="105" y1="176" x2="115" y2="176" stroke="black" />-->
+<!--<text x="120" y="181" fontSize="14">{-props.rValue}</text>-->
+
+<!--<line x1="105" y1="143" x2="115" y2="143" stroke="black" />-->
+<!--<text x="120" y="148" fontSize="14">{-props.rValue / 2}</text>-->
+
+<!--<line x1="105" y1="76" x2="115" y2="76" stroke="black" />-->
+<!--<text x="120" y="81" fontSize="14">{props.rValue / 2}</text>-->
+
+<!--<line x1="105" y1="43" x2="115" y2="43" stroke="black" />-->
+<!--<text x="120" y="48" fontSize="14">{props.rValue}</text>-->
+
+<!--        {/* Triangle */}-->
+<!--<polygon points="143,110 110,110 110,176"-->
+<!--         fill="blue" fillOpacity="0.25" stroke="darkblue" strokeOpacity="0.5" />-->
+
+<!--        {/* Rectangle */}-->
+<!--<polygon points="43,76 43,110 110,110 110,76"-->
+<!--         fill="green" fillOpacity="0.25" stroke="darkgreen" strokeOpacity="0.5" />-->
+
+<!--        {/* Circle */}-->
+<!--<path d="M 77 110 A 33 33 0 0 0 110 143 L 110 110 Z"-->
+<!--      fill="yellow" fillOpacity="0.25" stroke="#CCCC00" strokeOpacity="0.5" />-->
+<!--        </svg>-->
+<!--<svg xmlns="http://www.w3.org/2000/svg" height="220" width="220" className="graph" id="graph">-->
+<!--    <line stroke="white" x1="0" x2="220" y1="110" y2="110"></line>-->
+<!--    <line stroke="white" x1="110" x2="110" y1="0" y2="220"></line>-->
+<!--    <polygon fill="black" points="110,0 106,11 114,11" stroke="white"></polygon>-->
+<!--    <polygon fill="black" points="220,110 209,114 209,106" stroke="white"></polygon>-->
+
+<!--    <line stroke="gray" x1="146" x2="146" y1="113" y2="106"></line>-->
+<!--    <line stroke="gray" x1="182" x2="182" y1="113" y2="106"></line>-->
+
+<!--    <line stroke="gray" x1="37" x2="37" y1="113" y2="106"></line>-->
+<!--    <line stroke="gray" x1="73" x2="73" y1="113" y2="106"></line>-->
+
+<!--    <line stroke="gray" x1="106" x2="113" y1="73" y2="73"></line>-->
+<!--    <line stroke="gray" x1="106" x2="113" y1="37" y2="37"></line>-->
+
+<!--    <line stroke="gray" x1="106" x2="113" y1="146" y2="146"></line>-->
+<!--    <line stroke="gray" x1="106" x2="113" y1="182" y2="182"></line>-->
+
+
+<!--    <text fill="black" x="195" y="140">R/2</text>-->
+<!--    <text fill="black" x="248" y="140">R</text>-->
+
+<!--    <text fill="black" x="40" y="140">-R</text>-->
+<!--    <text fill="black" x="90" y="140">-R/2</text>-->
+
+<!--    <text fill="black" x="160" y="105">R/2</text>-->
+<!--    <text fill="black" x="160" y="55">R</text>-->
+
+<!--    <text fill="black" x="160" y="205">-R/2</text>-->
+<!--    <text fill="black" x="160" y="255">-R</text>-->
+
+<!--    <text fill="black" x="160" y="10">Y</text>-->
+<!--    <text fill="black" x="290" y="140">X</text>-->
+
+<!--    <rect x="66" y="37" width="88" height="18" fill="#0000FF" fill-opacity="0.5"-->
+<!--          stroke="#0000FF"></rect>-->
+<!--    <rect x="66" y="131" width="88" height="18" fill="#0000FF" fill-opacity="0.5"-->
+<!--          stroke="#0000FF"></rect>-->
+<!--    <rect x="66" y="84" width="88" height="18" fill="#0000FF" fill-opacity="0.5"-->
+<!--          stroke="#0000FF"></rect>-->
+
+<!--    <polygon fill="#0000FF" fill-opacity="1" points="135,55 66,131 84,131 153,55"-->
+<!--             stroke="#0000FF"></polygon>-->
+<!--    <polygon fill="#0000FF" fill-opacity="0.5" points="66,84 84,84 113,55 95,55"-->
+<!--             stroke="#0000FF"></polygon>-->
+<!--    <polygon fill="#0000FF" fill-opacity="0.5" points="153,102 135,102 110,131 128,131"-->
+<!--             stroke="#0000FF"></polygon>-->
+
+<!--    <line stroke="white" stroke-width="3" stroke-opacity="0.7" x1="154" x2="85" y1="55"-->
+<!--          y2="131"></line>-->
+<!--</svg>-->
+
+<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+
+    <line x1="14" y1="151" x2="288" y2="151" stroke="black" />
+    <polygon points="288,151 274,144 274,158" />
+
+
+
+    <line x1="151" y1="14" x2="151" y2="288" stroke="black" />
+    <polygon points="151,14 144,27 158,27" />
+
+    <line x1="59" y1="144" x2="59" y2="158" stroke="black" />
+<!--    <text x={59 - (-props.rValue).toString().length * 3} y="137" fontSize="14">{-props.rValue}</text>-->
+
+<line x1="104" y1="144" x2="104" y2="158" stroke="black" />
+<!--<text x={104 - (-props.rValue / 2).toString().length * 3} y="137" fontSize="14">{-props.rValue / 2}</text>-->
+
+<line x1="196" y1="144" x2="196" y2="158" stroke="black" />
+<!--<text x={196 - (props.rValue / 2).toString().length * 3} y="137" fontSize="14">{props.rValue / 2}</text>-->
+
+<line x1="241" y1="144" x2="241" y2="158" stroke="black" />
+<!--<text x={241 - props.rValue.toString().length * 3} y="137" fontSize="14">{props.rValue}</text>-->
+
+
+<line x1="144" y1="241" x2="158" y2="241" stroke="black" />
+<text x="164" y="248" fontSize="14">{-props.rValue}</text>
+
+<line x1="144" y1="196" x2="158" y2="196" stroke="black" />
+<text x="164" y="203" fontSize="14">{-props.rValue / 2}</text>
+
+<line x1="144" y1="104" x2="158" y2="104" stroke="black" />
+<text x="164" y="111" fontSize="14">{props.rValue / 2}</text>
+
+<line x1="144" y1="59" x2="158" y2="59" stroke="black" />
+<text x="164" y="66" fontSize="14">{props.rValue}</text>
+
+
+<rect x="90" y="52" width="120" height="23" fill="#0000FF" fill-opacity="0.5"
+      stroke="#0000FF"></rect>
+
+
+<rect x="90" y="180" width="120" height="25" fill="#0000FF" fill-opacity="0.5"
+      stroke="#0000FF"></rect>
+<rect x="90" y="115" width="120" height="25" fill="#0000FF" fill-opacity="0.5"
+      stroke="#0000FF"></rect>
+
+<polygon fill="#0000FF" fill-opacity="1" points="185,75 90,180 115,180 210,75"
+         stroke="#0000FF"></polygon>
+<polygon fill="#0000FF" fill-opacity="0.5" points="90,115 115,115 155,75 130,75"
+         stroke="#0000FF"></polygon>
+<polygon fill="#0000FF" fill-opacity="0.5" points="210,140 185,140 150,180 175,180"
+         stroke="#0000FF"></polygon>
+
+<line stroke="white" stroke-width="3" stroke-opacity="0.7" x1="211" x2="116" y1="75"
+      y2="180"></line>
+
+        </svg>

@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'MyCustomFont';
+    src: url("ru-ru.ttf") format('truetype'),
+    url("en-us.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("Camellya from Wuthering Waves.jpg");
+    font-size: 12px;
+    font-family: "MyCustomFont", sans-serif;
+    overflow: auto;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+.visually-hidden {
+    position: absolute;
+    clip: rect(0 0 0 0);
+}
+
+.theme {
+    background-color: rgba(114, 99, 140, 0.09);
+}
+
+.section-header {
+    position: relative;
+    height: 2.8em;
+    margin: 0;
+    font-weight: normal;
+    font-size: 18px;
+    text-align: center;
+}
+
+.section-header-text {
+    display: inline-block;
+    margin-top: 0.8em;
+}
+
+.content-section {
+    border-radius: 15px;
+    background-color: rgba(255, 0, 0, 0.12);
+}
+
+.section-header {
+    position: relative;
+    height: 2.8em;
+    margin: 0;
+    font-weight: normal;
+    font-size: 18px;
+    text-align: center;
+}
